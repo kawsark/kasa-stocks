@@ -1,5 +1,6 @@
 build: clean
 	go build -o kasa-stocks *.go
+	ls -l
 
 run: build
 	./kasa-stocks
