@@ -1,0 +1,7 @@
+{
+    "Regex":"Change<\\/td>.*>(-*\\d+.\\d+)%",
+    "DataEndpoint":"?t=%s",
+    "BaseURL":"https://finviz.com/quote.ashx",
+    "Apikey":"",
+    "UserAgentString":"Go"
+}

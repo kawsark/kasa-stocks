@@ -1,0 +1,11 @@
+{
+    "executable":"/usr/local/bin/kasa",
+    "deviceType":"bulb",
+    "ColorHue": 50,
+    "ColorSaturation": 100,
+    "ColorValue": 100,
+    "defaultSymbol": "SPY",
+    "defaultDeviceName": "\"stocks bulb\"",
+    "DeviceHostIP" : "",
+    "ColorHueMultiplier": 15.0
+}
