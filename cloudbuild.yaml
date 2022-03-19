@@ -1,0 +1,6 @@
+steps:
+  - name: golang
+    entrypoint: /bin/bash
+    args: 
+      - -c
+      - make build
