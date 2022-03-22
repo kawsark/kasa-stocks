@@ -4,3 +4,7 @@ steps:
     args: 
       - -c
       - make build
+artifacts:
+  objects:
+    location: 'gs://kasa-stocks/'
+    paths: ['kasa-stocks']
