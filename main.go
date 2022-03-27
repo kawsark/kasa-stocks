@@ -61,7 +61,7 @@ func init() {
 
 	config := loadDeviceConfiguration()
 
-	// Set flags
+	// Set flags (overriding the file configuration if it exists)
 	flag.IntVar(&refreshInterval, "n", -1, "Specifies the number of seconds to lookup stock price")
 	flag.StringVar(&devicename, "name", config.DefaultDeviceName, "Specifies the target device")
 	flag.StringVar(&devicetype, "type", config.DeviceType, "Specifies the target device type")

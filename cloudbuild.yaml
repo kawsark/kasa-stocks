@@ -3,8 +3,12 @@ steps:
     entrypoint: /bin/bash
     args: 
       - -c
-      - make build
+      - make build_all
+    env:
+      - 'VERSION=0.1'
 artifacts:
   objects:
     location: 'gs://kasa-stocks/'
-    paths: ['kasa-stocks']
+    paths: ['bin/darwin_amd64/kasa-stocks_${VERSION}','bin/darwin_amd64/kasa-stocks_${VERSION}_sha256.txt']
+    location: 'gs://kasa-stocks/'
+    paths: ['bin/darwin_arm64/kasa-stocks_${VERSION}','bin/darwin_arm64/kasa-stocks_${VERSION}_sha256.txt']
